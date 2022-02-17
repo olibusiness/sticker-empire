@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+      <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8XFPKBQ6B5"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -16,7 +16,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>getting your stickers</title>
+    <title>Raffle</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,35 +27,33 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="order.html">Order</a>
+    <a href="how.html">Getting stickers</a>
+    <a href="Feedback.html">Feedback</a>
+    <a href="gallary.html">Gallery</a>
+
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+
 </head>
+<h1 class="shadow" data-shadow='Raffle'>Raffle</h1>
 <body>
-
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="order.html">Order</a>
-      <a href="Feedback.html">Feedback</a>
-      <a href="gallary.html">Gallery</a>
-      <a href="raffle.html">Raffle</a>
-    </div>
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-    
-    <script>
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-    }
-    
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-    }
-    </script>
-<body>
-    <h1 class="how">How you can get your sticker</h1>
-</br></br></br>
-
-    <p class="main-writing">There are many ways to get your very own sticker. 
-      It is also possible to request a different method of collection depending on the individual.</p>
-      <img src="photos/van.png" alt="van">
+    <p class="raffle">Each week, stickers will be given away through a raffle. All stickers purchased automatically qualify you for the raffle. 
+        The more you buy the more chances are to win. The winner will be notified by email. Prizes that are not collected by the end of the week will be redrawn next week.  </p>
+        <img src="photos/spinner.gif" alt="spinner">
 </body>
 </html>

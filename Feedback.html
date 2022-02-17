@@ -27,7 +27,8 @@
       <a href="about.html">About</a>
       <a href="order.html">Order</a>
       <a href="how.html">Getting stickers</a>
-      <a href="gallary.html">Gallary</a>
+      <a href="gallary.html">Gallery</a>
+      <a href="raffle.html">Raffle</a>
     </div>
     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     
@@ -49,8 +50,10 @@
     
     <form action="https://formsubmit.co/oliver.business101@gmail.com" method="POST">
         <input type="email" name="email" placeholder="Email Address" required>
+        <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_subject" value="Feedback">
         <input type="text" name="name" placeholder="What did you think of the website?" rows="4" cols="100" required>
+        <input type="hidden" name="_next" value="https://sticker-empire.pages.dev/thanks.html">
         <button type="submit" class="submit">Send</button>
 
     
